@@ -1,6 +1,10 @@
+"""
+Implements basic integer arithmetic grammar
+"""
+
 import parser_LL
 
-filename = "data/sums.txt"
+filename = "data/arithmetic.txt"
 
 # Defining valid tokens in the grammar
 class EndExpr(parser_LL.UniqueToken): pass

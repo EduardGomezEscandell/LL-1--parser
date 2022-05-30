@@ -1,3 +1,9 @@
+"""
+Implements the example grammar and test case from:
+
+https://en.wikipedia.org/wiki/LL_parser#Concrete_example
+"""
+
 import parser_LL
 
 filename = "data/wikipedia.txt"
